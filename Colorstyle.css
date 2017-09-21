@@ -1,0 +1,40 @@
+.css
+{color: ff9aff
+opacity:0.10;
+font-size: 60px: }
+
+.bla
+{width:250px:
+height:200px}
+
+.image
+{opacity: 0.5;}
+
+.white
+{width: 500px;
+height:500px;
+ background-image: url(cup.jpg);
+ background-position:3000px;
+ background-size:cover;
+ opacity: 0.9
+}
+.dia
+{
+height:20px;
+background-color:green;
+}
+
+.ray
+{
+	height: 500px;
+background:linear-gradient(green,gold);
+border-style:solid;
+border-color: #000;
+border: 5px;
+border-radius: 20px;
+}
+
+@ font-face
+{font-family:geometry:
+	;
+ }  

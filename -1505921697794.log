@@ -1,0 +1,87 @@
+dia.html:26 Uncaught SyntaxError: Unexpected identifier
+10%2
+0
+10%3
+1
+x++
+VM267:1 Uncaught ReferenceError: x is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM267:1
+var x = 10 x++
+VM279:1 Uncaught SyntaxError: Unexpected identifier
+var x=10; x++
+10
+var x=10; x--
+10
+var x=10; x+1
+11
+var x=10; var y=20; x==y
+false
+x!=y
+true
+x>y
+false
+x>=y
+false
+x<=y
+true
+x>0&0<y
+1
+x>0 && 0<y
+true
+x>0|| 0<y
+true
+!(x > 0 && y>0)
+false
+var z=x+y;
+undefined
+z += x;
+z = z +x
+50
+z+=z+x
+110
+z+=x
+120
+z+=x;
+130
+Math.pow(7, 2);
+49
+match.sgrt(7)
+VM456:1 Uncaught ReferenceError: match is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM456:1
+match.s
+VM470:1 Uncaught ReferenceError: match is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM470:1
+match.sqrt (9,2)
+VM493:1 Uncaught ReferenceError: match is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM493:1
+Match.pow(6,3)
+VM517:1 Uncaught ReferenceError: Match is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM517:1
+Match.sqrt(7,2);
+VM538:1 Uncaught ReferenceError: Match is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM538:1
+Math.pow(6,3);
+216
+if (x < y) {
+console.log(“Rabotaet staement”);
+}
+VM568:2 Uncaught SyntaxError: Invalid or unexpected token
+if (x < y) {
+console.log(“Rabotaet statement”);
+}
+VM571:2 Uncaught SyntaxError: Invalid or unexpected token
+var x = 10;
+var y = 20;
+
+if (x < y) {
+console.log(“Rabotaet if statement”);
+}
+
+
+VM572:5 Uncaught SyntaxError: Invalid or unexpected token

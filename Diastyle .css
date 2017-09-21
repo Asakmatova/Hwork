@@ -1,0 +1,12 @@
+.ad{margin: auto;
+	width: 900px;
+	height: 600px;
+	background-color:red;
+opacity: 0.5;}
+img{width: 100%}
+
+@media screen and(min-width: 320px;){
+	.ad2 p{
+		color:blue;
+		font-size: 60px;}
+}
